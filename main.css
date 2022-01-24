@@ -1,6 +1,4 @@
 
-
-
 ul > li {
     list-style: none;
    
@@ -10,4 +8,8 @@ ul > li {
 ul{
     padding-left: 0;
    
+}
+
+.divborder{
+    border-radius: 25px;
 }
