@@ -21,7 +21,7 @@
 
         <!-- Nav section Start -->
 
-        <section class="container">
+        <section class="container py-4">
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -54,67 +54,57 @@
         <!-- Nav section End -->
 
 
-
         <!-- slider section start -->
 
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
             </div>
+
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/banner.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-md-block">
-                        <h3>First slide label</h3>
-                        <p>Some representative placeholder content for the first slide.</p>
-
-                        <button type="button" class="btn btn-light">Large button</button>
-
+                    <img src="images/banner.png" alt="Los Angeles" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h1>Plan your event with us</h1>
+                        <p>We have Studio spaces available for recordings and hybrid events.</p>
+                        <button type="button" class="btn btn-primary">Book Now</button>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/banner.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-md-block">
-                        <h3>Second slide label</h3>
-                        <p>Some representative placeholder content for the second slide.</p>
-
-                        <button type="button" class="btn btn-light">Large button</button>
-
+                    <img src="images/banner.png" alt="Chicago" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h1> Best Conference Center In the City</h1>
+                        <p>For any Wedding,Biithday or Event!</p>
+                        <button type="button" class="btn btn-primary">Book Now</button>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/banner.png" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-md-block">
-                        <h3>Third slide label</h3>
-                        <p>Some representative placeholder content for the third slide.</p>
-
-                        <button type="button" class="btn btn-light">Large button</button>
-
+                    <img src="images/banner.png" alt="New York" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h1>More than 5000 Guests Capacity</h1>
+                        <p>You Just Enjoy Your Day!</p>
+                        <button type="button" class="btn btn-primary">Book Now</button>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
             </button>
         </div>
 
+
         <!-- slider section End -->
-
-
-
-
 
 
     </header>
@@ -123,143 +113,181 @@
 
         <!-- pricing section start -->
 
-        <div class="container p-4 g-5 m-5 w-100">
-            <h1 class="text-center">Our package</h1>
-            <div class="row g-5">
+        <section class="container mb-5 ">
 
-                <div class="col-12 col-md-6 col-lg-3">
-                    <h3>$300</h3>
-                    <h3>Business fair</h3>
-                    <p>For most businesses event
-                        like book fair, craft fair.</p>
+            <div>
+                <!-- toast start -->
+                <div class="toast align-items-center text-white bg-primary border-0" role="alert" aria-live="assertive"
+                    aria-atomic="true">
+                    <div class="d-flex">
+                        <div class="toast-body">
+                            Get $20 off your first Purchase
+                        </div>
+                        <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"
+                            aria-label="Close"></button>
+                    </div>
+                </div>
+                <h1 class="text-center fw-bold m-5">Our package</h1>
 
-                    <ul class="list">
-                        <li><i class="far fa-check-circle"></i>&nbsp;
-                            limited space access</li>
-                        <li><i class="far fa-check-circle"></i>&nbsp;
-                            Secuirty facility</li>
-                        <li><i class="far fa-check-circle"></i>&nbsp;
-                            event support</li>
-                        <li><i class="far fa-check-circle"></i>&nbsp;
-                            Decoration design</li>
-                        <li><i class="far fa-check-circle"></i>&nbsp;
-                            Per day bill</li>
-                    </ul>
 
-                    <button class="btn btn-primary rounded-pill Choose plan text-danger px-4 py-2" type="button"
-                        style="background-color: #FEF5FA;">Choose plan</button>
+                <!-- toast End -->
+
+                <div class="row px-4 py-4">
+
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="bg-white p-4 rounded-4 shadow-lg p-3 mb-5 bg-body rounded">
+                            <h3 class="fw-bold">$300</h3>
+                            <h3 class="fw-bold">Business fair</h3>
+                            <p>For most businesses event
+                                like book fair, craft fair.</p>
+
+                            <ul class="list">
+                                <li><i class="far fa-check-circle"></i>&nbsp;
+                                    limited space access</li>
+                                <li><i class="far fa-check-circle"></i>&nbsp;
+                                    Secuirty facility</li>
+                                <li><i class="far fa-check-circle"></i>&nbsp;
+                                    event support</li>
+                                <li><i class="far fa-check-circle"></i>&nbsp;
+                                    Decoration design</li>
+                                <li><i class="far fa-check-circle"></i>&nbsp;
+                                    Per day bill</li>
+                            </ul>
+
+                            <div class="btn d-flex justify-content-center ">
+                                <a href="#"><button class="btn btn-primary rounded-pill px-4 py-2" type="button">Choose
+                                        plan</button></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 ">
+                        <div class="bg-white p-4 shadow-lg p-3 mb-5 bg-body rounded">
+                            <h3 class="fw-bold">$500</h3>
+                            <h3 class="fw-bold">wedding basic</h3>
+                            <p>For weddings with basic plan
+                                and limited item</p>
+
+                            <ul class="list">
+                                <li><i class="far fa-check-circle"></i>&nbsp;
+                                    Full space access</li>
+                                <li><i class="far fa-check-circle"></i>&nbsp;
+                                    Food arrangement</li>
+                                <li><i class="far fa-check-circle"></i>&nbsp;
+                                    mangement support</li>
+                                <li><i class="far fa-check-circle"></i>&nbsp;
+                                    Decoration design</li>
+                                <li><i class="far fa-check-circle"></i>&nbsp;
+                                    Billed as shift</li>
+                            </ul>
+
+                            <div class="btn d-flex justify-content-center ">
+                                <a href="#"><button class="btn btn-primary rounded-pill px-4 py-2" type="button">Choose
+                                        plan</button></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 rounded position-relative text-white ">
+
+                        <div class="bg-primary p-4 shadow-lg p-3 mb-5 rounded">
+                            <span
+                                class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger px-3 py-2 ">
+                                Hot Offer</span>
+                            <h3 class="fw-bold">$800</h3>
+                            <h3 class="fw-bold">Wedding plus</h3>
+                            <p>For most weddings with premium plans</p>
+
+                            <ul class="list div-3">
+                                <li><i class="far fa-check-circle"></i>&nbsp;
+                                    Full space access</li>
+                                <li><i class=" far fa-check-circle"></i>&nbsp;
+                                    Dedicated team</li>
+                                <li><i class="far fa-check-circle"></i>&nbsp;
+                                    Buffet food</li>
+                                <li><i class="far fa-check-circle"></i>&nbsp;
+                                    premium Decoration</li>
+                                <li><i class="far fa-check-circle"></i>&nbsp;
+                                    pay as plan</li>
+                            </ul>
+
+                            <div class="btn d-flex justify-content-center ">
+                                <a href="#"><button class="btn btn-primary rounded-pill Choose plan text-dark px-4 py-2"
+                                        type="button" style="background-color: #FFFFFF;">Choose plan</button></a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-12 col-md-6 col-lg-3 ">
+                        <div class="bg-white p-4 shadow-lg p-3 mb-5 bg-body rounded">
+                            <h3 class="fw-bold">$1200</h3>
+                            <h3 class="fw-bold">Corporate event</h3>
+                            <p>For most corporate business
+                                events</p>
+
+                            <ul class="list">
+                                <li><i class="far fa-check-circle"></i>&nbsp;
+                                    Full space access</li>
+                                <li><i class="far fa-check-circle"></i>&nbsp;
+                                    Dedicated team</li>
+                                <li><i class="far fa-check-circle"></i>&nbsp;
+                                    Buffet food</li>
+                                <li><i class="far fa-check-circle"></i>&nbsp;
+                                    premium Decoration</li>
+                                <li><i class="far fa-check-circle"></i>&nbsp;
+                                    pay as plan</li>
+                            </ul>
+
+
+
+                            <div class="btn d-flex justify-content-center ">
+                                <a href="#"><button class="btn btn-primary rounded-pill px-4 py-2" type="button">Choose
+                                        plan</button></a>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
 
                 </div>
-
-                <div class="col-12 col-md-6 col-lg-3">
-                    <h3>$300</h3>
-                    <h3>Business fair</h3>
-                    <p>For most businesses event
-                        like book fair, craft fair.</p>
-
-                    <ul class="list">
-                        <li><i class="far fa-check-circle"></i>&nbsp;
-                            limited space access</li>
-                        <li><i class="far fa-check-circle"></i>&nbsp;
-                            Secuirty facility</li>
-                        <li><i class="far fa-check-circle"></i>&nbsp;
-                            event support</li>
-                        <li><i class="far fa-check-circle"></i>&nbsp;
-                            Decoration design</li>
-                        <li><i class="far fa-check-circle"></i>&nbsp;
-                            Per day bill</li>
-                    </ul>
-
-                    <button class="btn btn-primary rounded-pill Choose plan text-danger px-4 py-2" type="button"
-                        style="background-color: #FEF5FA;">Choose plan</button>
-
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-3 bg-primary rounded">
-                    <h3>$300</h3>
-                    <h3>Business fair</h3>
-                    <p>For most businesses event
-                        like book fair, craft fair.</p>
-
-                    <ul class="list">
-                        <li><i class="far fa-check-circle"></i>&nbsp;
-                            limited space access</li>
-                        <li><i class="far fa-check-circle"></i>&nbsp;
-                            Secuirty facility</li>
-                        <li><i class="far fa-check-circle"></i>&nbsp;
-                            event support</li>
-                        <li><i class="far fa-check-circle"></i>&nbsp;
-                            Decoration design</li>
-                        <li><i class="far fa-check-circle"></i>&nbsp;
-                            Per day bill</li>
-                    </ul>
-
-                    <button class="btn btn-primary rounded-pill Choose plan text-danger px-4 py-2" type="button"
-                        style="background-color: #FEF5FA;">Choose plan</button>
-
-                </div>
-
-                <div class="col-12 col-md-6 col-lg-3">
-                    <h3>$300</h3>
-                    <h3>Business fair</h3>
-                    <p>For most businesses event
-                        like book fair, craft fair.</p>
-
-                    <ul class="list">
-                        <li><i class="far fa-check-circle"></i>&nbsp;
-                            limited space access</li>
-                        <li><i class="far fa-check-circle"></i>&nbsp;
-                            Secuirty facility</li>
-                        <li><i class="far fa-check-circle"></i>&nbsp;
-                            event support</li>
-                        <li><i class="far fa-check-circle"></i>&nbsp;
-                            Decoration design</li>
-                        <li><i class="far fa-check-circle"></i>&nbsp;
-                            Per day bill</li>
-                    </ul>
-
-                    <button class="btn btn-primary rounded-pill Choose plan text-danger px-4 py-2" type="button"
-                        style="background-color: #FEF5FA;">Choose plan</button>
-
-                </div>
-
 
             </div>
-
-
-
-
-        </div>
+        </section>
         <!-- pricing section End -->
 
 
 
         <!-- Faq Section Start -->
 
-        <section class="container m-5">
-            <h1 class="text-center p-5">Frequently Asked Questions</h1>
-            <div class="row g-6">
+        <section class="container">
+            <h1 class="text-center fw-bold m-5 ">Frequently Asked Questions</h1>
+            <div class="row py-4">
 
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 order-2 order-lg-1">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
                                 <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Accordion Item #1
+                                    What time should I arrive to the ceremony?
                                 </button>
                             </h2>
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
-                                    until
-                                    the collapse plugin adds the appropriate classes that we use to style each element.
-                                    These classes control the overall appearance, as well as the showing and hiding via
-                                    CSS
-                                    transitions. You can modify any of this with custom CSS or overriding our default
-                                    variables. It's also worth noting that just about any HTML can go within the
-                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                    While the official wedding ceremony start time will be listed on your invitations,
+                                    your guests may want to know how early they can and should arrive. To answer this
+                                    FAQ, talk to your venue about when the doors will open and guests will be allowed to
+                                    enter the space. You can then recommend that guests arrive 15 minutes or so before
+                                    the official ceremony start time so they can get settled before the proceedings.
+
                                 </div>
                             </div>
                         </div>
@@ -267,19 +295,22 @@
                             <h2 class="accordion-header" id="headingTwo">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Accordion Item #2
+                                    What is the dress code?
                                 </button>
                             </h2>
                             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding
-                                    via CSS transitions. You can modify any of this with custom CSS or overriding our
-                                    default variables. It's also worth noting that just about any HTML can go within the
-                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                    "What should I wear?" is probably the most-asked question you'll receive in the
+                                    weeks leading up to your wedding day. You can't play fashion consultant for everyone
+                                    on your guest list, but you can provide some additional information on in your
+                                    wedding website FAQ section. If you included a dress code on your wedding
+                                    invitation, provide some specific examples of what it means (Semi-formal: Cocktail
+                                    dresses and jumpsuits, dark suits and ties, etc.). If you didn't provide a dress
+                                    code, give guests an idea of what would be appropriate to wear to your event
+                                    (sundresses, polo shirts, and slacks or shorts for a beach casual wedding, for
+                                    example). The more specific you can be about attire, the more helpful to your loved
+                                    ones.
                                 </div>
                             </div>
                         </div>
@@ -287,22 +318,40 @@
                             <h2 class="accordion-header" id="headingThree">
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Accordion Item #3
+                                    Is there parking available at the wedding venue?
                                 </button>
                             </h2>
                             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                                    until
-                                    the collapse plugin adds the appropriate classes that we use to style each element.
-                                    These classes control the overall appearance, as well as the showing and hiding via
-                                    CSS
-                                    transitions. You can modify any of this with custom CSS or overriding our default
-                                    variables. It's also worth noting that just about any HTML can go within the
-                                    <code>.accordion-body</code>, though the transition does limit overflow.
+                                    For guests who will be driving themselves, parking information is key. Does your
+                                    venue have its own lot/garage, will there be valet, or are guests expected to find
+                                    their own parking? If the latter, provided a list of suggested parking lots and/or
+                                    garages is helpful.
                                 </div>
                             </div>
+
+
+                        </div>
+
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    What will the weather be like?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    While you can't predict the exact forecast for your special day, you can give guests
+                                    an idea of what the weather is typically like in your wedding location at that time
+                                    of year. Again, this information will help your guests choose their attire.
+                                </div>
+                            </div>
+
+
                         </div>
 
 
@@ -311,8 +360,8 @@
                 </div>
 
 
-                <div class="col-12 col-lg-6">
-                    <img class="w-70" src="images/people.png" alt="">
+                <div class="col-12 col-lg-6 order-1 order-lg-2">
+                    <img class="w-100" src="images/people.png" alt="">
 
                 </div>
             </div>
@@ -322,13 +371,111 @@
 
 
 
+        <!-- Blog Section -->
+
+        <section class="container mt-4 mb-4">
+            <h1 class="text-center fw-bold m-5">Blog Section</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/blog01.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Planning Honeymoon Trip</h3>
+                            <span>
+                                <p><i class="fas fa-calendar-alt"></i> 20 December 2017 &nbsp;<i
+                                        class="far fa-heart"></i> 143
+                                </p>
+                            </span>
+
+                            <p class="card-text">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                                velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
+                                consequat ipsum, nec sagittis sem nibh id elit</p>
+                        </div>
+
+                        <div class="m-4">
+                            <button class="btn btn-primary" type="button">Read More</button>
+                        </div>
 
 
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/blog02.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Surprises For Guests</h3>
+                            <span>
+                                <p><i class="fas fa-calendar-alt"></i> 20 December 2017 &nbsp;<i
+                                        class="far fa-heart"></i> 143
+                                </p>
+                            </span>
+
+                            <p class="card-text">LikesThis is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                                velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
+                                consequat ipsum, nec sagittis sem nibh id elit..</p>
+                        </div>
+                        <div class="m-4">
+                            <button class="btn btn-primary" type="button">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/Blog03.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title">Bachelor Party!</h3>
+                            <span>
+                                <p><i class="fas fa-calendar-alt"></i> 20 December 2017 &nbsp; <i
+                                        class="far fa-heart"></i> 143
+                                </p>
+                            </span>
+
+
+                            <p class="card-text">LikesThis is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
+                                velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit
+                                consequat ipsum, nec sagittis sem nibh id elit..</p>
+                        </div>
+
+
+                        <div class="m-4">
+                            <button class="btn btn-primary" type="button">Read More</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
 
-    <footer>
+
+
+
+    <footer class="bg-dark">
+        <div class="row py-5 text-light text-center align-items-center m-0">
+            <div class="p-3 mt-2 col-12 col-lg-6 order-2 order-lg-1">
+                <p class="text-white">© 2020 Event Point. All rights reserved.</p>
+            </div>
+            <div class="col-12 col-lg-6 order-1 order-lg-2">
+
+                <p class="text-white">Get the App</p>
+
+                <a target="_blank"
+                    href="https://apps.apple.com/us/app/quran-majeed-%D8%A7%D9%84%D9%82%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85/id365557665">
+
+                    <img src="images/app-store.png" class="mb-2" alt="">
+                </a>
+                <br>
+
+                <a target="_blank"
+                    href="https://play.google.com/store/apps/details?id=com.verypositive.Quran&hl=en&gl=US">
+                    <img src="images/google-play.png" alt="">
+                </a>
+            </div>
+        </div>
 
     </footer>
+
 
 
 
@@ -336,6 +483,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+
+    <script>
+        window.onload = (e) => {
+            let myToast = document.querySelector('.toast');
+            let bsToast = new bootstrap.Toast(myToast);
+            bsToast.show();
+        }
+    </script>
 </body>
 
 </html>
